@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+
+    >
+
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Umów wizytę"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:textSize="30dp" />
+
+
+    <TextView
+
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Wpisz pesel pacjenta dla którego chcesz umówić wizytę"
+        android:textColor="@color/colorPrimary" />
+
+
+    <EditText
+        android:gravity="center"
+        android:hint="Podaj numer pesel"
+        android:id="@+id/EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_healing_black_24dp"/>
+    <Button
+        android:layout_marginTop="150dp"
+        android:id="@+id/wybierzlekarza_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:background="@color/colorPrimary"
+        android:onClick="b1click"
+        android:text="Wybierz lekarza"
+        android:textColor="@android:color/white" />
+</LinearLayout>
